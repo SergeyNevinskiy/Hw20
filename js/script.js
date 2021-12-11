@@ -80,15 +80,18 @@
 //   return accum;
 // }, 0);
 
-// console.log(arr1);
+alert(arr1);
 
 // 9. Дан массив с числами. Не используя метода reverse переверните его элементы в обратном порядке.
 
-// let arr = [1, 2, 10, 7, 16, 3];
-// arr.reduceRight(function (accum, item) {
-//      accum.push(item);
-//      return accum;
-// }, [])
+// function reverseArr(array) {
+//   let newArr = [];
+//   while (array.length) {
+//     newArr.push(array.pop());
+//   }
+//   return newArr;
+// }
+// alert(reverseArr(arr));
 
 // 10. Дан двухмерный массив с числами, например [[1, 2, 3], [4, 5], [6]]. Найдите сумму элементов этого массива. Массив, конечно же, может быть произвольным.
 
@@ -101,7 +104,7 @@
 //   }
 // }
 
-// console.log(result);
+// alert(result);
 
 // 11. Дан трехмерный массив с числами, например [[[1, 2], [3, 4]], [[5, 6], [7, 8]]]. Найдите сумму элементов этого массива. Массив, конечно же, может быть произвольным.
 
@@ -125,4 +128,4 @@
 //   }
 // }
 
-// console.log(result);
+// alert(result);
