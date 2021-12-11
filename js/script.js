@@ -80,9 +80,11 @@
 //   return accum;
 // }, 0);
 
-alert(arr1);
+// alert(arr1);
 
 // 9. Дан массив с числами. Не используя метода reverse переверните его элементы в обратном порядке.
+
+// const arr = [1, 2, 3, 4, 5, 6];
 
 // function reverseArr(array) {
 //   let newArr = [];
